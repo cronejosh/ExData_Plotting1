@@ -7,7 +7,7 @@
 # Requirements set out in assignment
 # =========================================================================
 
-# Read in data
+# Read in data (only pertinent rows)
 filepath = "./data/household_power_consumption.txt"
 data = read.table(filepath, header = FALSE, sep = ";",
                   skip = 66637,nrows = 2880)
